@@ -14,9 +14,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: 'https://coffey.codes/rss'
-          max_post_count: 5
-          template: "- [$title]($url) <sub>$date</sub>\n"
-          date_format: 'mmm dd, yyyy'
+
+      - name: Generate posts list from RSS
+        run: |
+          node --input-type=module -e "
+          import('node:fs').then(async (fs) => {
+            const rss = await fetch('https://coffey.codes/rss').then(r => r.text());
+            const items = [...rss.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 5);
+            const lines = items.map(([, item]) => {
+              const title = (item.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/) || [])[1] || '';
+              const link = (item.match(/<link>(.*?)<\/link>/) || [])[1] || '';
+              const date = (item.match(/<pubDate>(.*?)<\/pubDate>/) || [])[1] || '';
+              const d = date ? new Date(date) : null;
+              const dateStr = d ? d.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' }) : '';
+              return '- [' + title + '](' + link + ') <sub>' + dateStr + '</sub>';
+            }).join('\n');
+            const block = '<!-- BLOG-POST-LIST:START -->\n' + lines + '\n<!-- BLOG-POST-LIST:END -->';
+            let readme = fs.readFileSync('README.md', 'utf8');
+            readme = readme.replace(/<!-- BLOG-POST-LIST:START -->[\s\S]*?<!-- BLOG-POST-LIST:END -->/, block);
+            fs.writeFileSync('README.md', readme);
+          });
+          "
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name 'blog-post-bot'
+            git config user.email 'blog-post-bot@users.noreply.github.com'
+            git add README.md
+            git commit -m 'chore: update latest blog posts'
+            git push
+          else
+            echo 'No changes.'
+          fi
