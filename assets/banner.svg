@@ -231,6 +231,6 @@
   <!-- Footer -->
   <text x="640" y="330" text-anchor="middle"
         font-family="Futura, 'Futura PT', 'Century Gothic', 'Avenir Next', Avenir, 'URW Gothic', sans-serif"
-        font-weight="400" font-size="13" letter-spacing="6"
-        fill="#888888" opacity="0.75">AUSTIN, TX  //  COFFEY.CODES</text>
+        font-weight="500" font-size="14" letter-spacing="5"
+        fill="#b8b8b8" opacity="1">AUSTIN, TX  //  COFFEY.CODES</text>
 </svg>
