@@ -29,7 +29,7 @@
     </td>
     <td valign="top">
       <h4><a href="https://github.com/anthonycoffey/simply-voice">simply-voice</a></h4>
-      Speech-to-text web app on top of Google Cloud Speech. TypeScript front end, Firebase auth, Supabase storage. Built to scratch my own dictation itch.
+      Speech-to-text web app on top of Google Cloud Speech. TypeScript front end, Firebase auth, Supabase storage. Built for my own text-to-speech gen needs, has no users but I use it all the time to create narrations for videos.
     </td>
   </tr>
   <tr>
