@@ -15,7 +15,7 @@
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://coffey.codes">coffey.codes</a></h4>
-      MDX-powered portfolio blog site. Next.js 16, three.js, Tailwind v4.
+      MDX-powered portfolio blog site. Next.js 16, three.js, Tailwind v4. Comments section powered by giscus (GitHub), and hosted on Vercel.
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/anthonycoffey/_agent">_agent</a></h4>
