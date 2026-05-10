@@ -35,7 +35,7 @@
   <tr>
     <td valign="top">
       <h4><a href="https://github.com/anthonycoffey/easymark-ui">easymark-ui</a> + <a href="https://github.com/anthonycoffey/easymark-api">easymark-api</a></h4>
-      Document annotation tool, split across two repos. React 19 front end, FastAPI back end. Mark up PDFs in the browser, get the annotations back as structured data.
+       Simple Markdown reader desktop application created with Electron and React.
     </td>
     <td valign="top">
       <h4><a href="https://github.com/anthonycoffey/piano-scale-visualizer">piano-scale-visualizer</a></h4>
