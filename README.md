@@ -15,7 +15,7 @@
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://coffey.codes">coffey.codes</a></h4>
-      Portfolio blog site. Next.js 16, MDX, three.js, Tailwind v4. Articles are write-ups of things I figured out at work. The three.js hero is just for fun.
+      MDX-powered portfolio blog site. Next.js 16, three.js, Tailwind v4.
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/anthonycoffey/_agent">_agent</a></h4>
