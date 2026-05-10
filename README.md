@@ -9,7 +9,7 @@
 
 ---
 
-### Selected work
+### My projects
 
 <table>
   <tr>
