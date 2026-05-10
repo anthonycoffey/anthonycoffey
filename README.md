@@ -9,50 +9,42 @@
 
 ---
 
-### 🍝 Bugsy — self-hosted personal AI agent
-
-A full-stack experiment in owning your own assistant. Bugsy runs on a hardened **GCP Compute Engine** VM provisioned with **Terraform** — no public IP, **Cloudflare Tunnel** for ingress, IAP-fallback firewall, narrow service-account scopes, GCS-backed snapshots. The runtime is **Docker Compose**: **n8n** for workflow orchestration, **Postgres + pgvector** for chat memory, **Qdrant** for RAG over personal knowledge, **Ollama** running `qwen3:8b` and `nomic-embed-text` locally, and **LiteLLM** brokering Claude / GPT / Gemini / local models through one OpenAI-compatible endpoint.
-
-**Slack is the control panel.** Workflows handle inbox watching, lead research, RAG ingest/query, job-board scoring, web research via self-hosted SearXNG, and chat. Human-in-the-loop on anything that sends — reactions gate irreversible actions. The persona — a 1970s mafia-connected Italian-American — is half the fun and half a forcing function: an assistant with character is one I actually use.
-
-> **Repo:** [`anthonycoffey/_agent`](https://github.com/anthonycoffey/_agent) · FOSS-first, CPU-only, hobby project
-
----
-
 ### Selected work
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://coffey.codes">coffey.codes</a></h4>
-      This site. Next.js 16 · MDX · three.js · Tailwind v4. Where the writing lives.
+      This site. Next.js 16, MDX, three.js, Tailwind v4. Articles are write-ups of things I figured out at work. The three.js hero is just for fun.
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/anthonycoffey/flutter-labelscan">flutter-labelscan</a></h4>
-      Mobile app that scans price labels and tracks cart totals in real time. Dart / Flutter.
+      <h4><a href="https://github.com/anthonycoffey/_agent">_agent</a></h4>
+      Self-hosted AI agent on a GCP VM. Terraform brings up the box, Docker runs n8n, Postgres+pgvector, Qdrant, Ollama, and LiteLLM proxying Claude / GPT / Gemini. Slack drives it. Persona is a 1970s mafia-connected Italian-American named Bugsy. Hobby project, FOSS where I can.
     </td>
   </tr>
   <tr>
+    <td valign="top">
+      <h4><a href="https://github.com/anthonycoffey/flutter-labelscan">flutter-labelscan</a></h4>
+      Flutter app that scans price labels with the phone camera and tracks a running cart total. Built it because I was tired of getting surprised at checkout.
+    </td>
     <td valign="top">
       <h4><a href="https://github.com/anthonycoffey/simply-voice">simply-voice</a></h4>
-      Speech-to-text web app on Google Cloud Speech API. TypeScript · Firebase · Supabase.
-    </td>
-    <td valign="top">
-      <h4><a href="https://github.com/anthonycoffey/easymark-ui">easymark-ui</a> + <a href="https://github.com/anthonycoffey/easymark-api">easymark-api</a></h4>
-      Document annotation tool. React 19 frontend, FastAPI backend.
+      Speech-to-text web app on top of Google Cloud Speech. TypeScript front end, Firebase auth, Supabase storage. Built to scratch my own dictation itch.
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <h4><a href="https://github.com/anthonycoffey/piano-scale-visualizer">piano-scale-visualizer</a></h4>
-      Interactive scale explorer for music students. Web Audio API.
+      <h4><a href="https://github.com/anthonycoffey/easymark-ui">easymark-ui</a> + <a href="https://github.com/anthonycoffey/easymark-api">easymark-api</a></h4>
+      Document annotation tool, split across two repos. React 19 front end, FastAPI back end. Mark up PDFs in the browser, get the annotations back as structured data.
     </td>
     <td valign="top">
-      <h4><a href="https://github.com/anthonycoffey?tab=repositories">More on GitHub →</a></h4>
-      The rest of the workshop.
+      <h4><a href="https://github.com/anthonycoffey/piano-scale-visualizer">piano-scale-visualizer</a></h4>
+      Browser piano that highlights whatever scale you pick. Web Audio plays the notes when you click. Made for music students sick of squinting at scale charts.
     </td>
   </tr>
 </table>
+
+<sub><a href="https://github.com/anthonycoffey?tab=repositories">More on GitHub →</a></sub>
 
 ---
 
