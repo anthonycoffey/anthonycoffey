@@ -76,8 +76,7 @@ A full-stack experiment in owning your own assistant. Bugsy runs on a hardened *
 
 ### Latest from [coffey.codes/articles](https://coffey.codes/articles)
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [Production-grade CI/CD with Next.js/Vercel and GitHub Actions](https://coffey.codes/articles/production-grade-ci-cd-with-nextjs-vercel-and-github-actions) <sub>Apr 24, 2026</sub>- [Implementing Localization in a Next.js App](https://coffey.codes/articles/implementing-localization-in-nextjs) <sub>Feb 26, 2026</sub>- [Fixing Broken Dynamic Routes After Upgrading to Next.js 16](https://coffey.codes/articles/fixing-broken-routes-after-nextjs-16-upgrade) <sub>Feb 01, 2026</sub>- [Dealing with Slow Android Emulators in Flutter Development](https://coffey.codes/articles/slow-android-emulator-flutter-dev) <sub>Apr 16, 2025</sub>- [Vibe Coding: Building a Flutter App Entirely with AI Prompts](https://coffey.codes/articles/vibe-coding-building-an-app-entirely-with-ai-prompts) <sub>Apr 03, 2025</sub><!-- BLOG-POST-LIST:END -->
 
 ---
 
