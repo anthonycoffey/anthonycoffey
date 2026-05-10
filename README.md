@@ -35,7 +35,7 @@
   <tr>
     <td valign="top">
       <h4><a href="https://github.com/anthonycoffey/easymark-ui">easymark-ui</a> + <a href="https://github.com/anthonycoffey/easymark-api">easymark-api</a></h4>
-       Simple Markdown reader desktop application created with Electron and React.
+       Markdown viewer/editor desktop application created with Electron and React.
     </td>
     <td valign="top">
       <h4><a href="https://github.com/anthonycoffey/piano-scale-visualizer">piano-scale-visualizer</a></h4>
