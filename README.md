@@ -9,7 +9,7 @@
 
 ---
 
-### My projects
+### my projects
 
 <table>
   <tr>
