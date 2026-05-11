@@ -227,7 +227,7 @@
   <text x="640" y="290" text-anchor="middle"
         font-family="Outfit, 'Helvetica Neue', Arial, sans-serif"
         font-weight="500" font-size="20" letter-spacing="9"
-        fill="#E8E8FF" opacity="0.9">MUSICIAN  ·  ENGINEER  ·  ARTIST  ·  MAKER</text>
+        fill="#E8E8FF" opacity="0.9">ENGINEER  ·  MAKER  ·  MUSICIAN  ·  ARTIST</text>
 
   <!-- Brand wordmark — actual letterforms from the coffey.codes logo.
        Source center (383, 77.5), scaled 0.32x → ~131w × 16h. -->
