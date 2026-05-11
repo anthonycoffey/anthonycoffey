@@ -175,17 +175,17 @@
   </g>
 
   <!-- Cyan glow halo behind emblem -->
-  <circle cx="640" cy="180" r="120" fill="url(#emblemGlow)"/>
+  <circle cx="640" cy="172" r="120" fill="url(#emblemGlow)"/>
 
   <!-- Brand emblem, scaled and centered. Source center: (81.56, 79.48), scaled 1.25x -->
-  <g transform="translate(640 180) scale(1.25) translate(-81.56 -79.48)"
+  <g transform="translate(640 172) scale(1.25) translate(-81.56 -79.48)"
      fill="url(#brand)" filter="url(#soft)">
     <animate attributeName="opacity" values="0.92;1;0.92" dur="9s" repeatCount="indefinite"/>
     <use href="#emblem"/>
   </g>
 
   <!-- Cyan particles orbiting the emblem -->
-  <g transform="translate(640 180)">
+  <g transform="translate(640 172)">
     <g>
       <circle cx="110" cy="0" r="1" fill="#a2e2ef" opacity="0.7"/>
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="32s" repeatCount="indefinite"/>
