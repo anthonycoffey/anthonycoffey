@@ -9,6 +9,27 @@
 
 ---
 
+### Stats
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api?username=anthonycoffey&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&card_width=480" />
+  <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api/top-langs/?username=anthonycoffey&layout=compact&theme=radical&hide_border=true&langs_count=10&card_width=320" />
+</p>
+
+<p align="center">
+  <img height="180" src="https://streak-stats.demolab.com/?user=anthonycoffey&theme=radical&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anthonycoffey&theme=radical&bg_color=0a0612&color=ff3df0&line=7c3aed&point=22d3ee&hide_border=true&area=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anthonycoffey&theme=radical&no-frame=true&row=1&column=7&margin-w=8" />
+</p>
+
+---
+
 ### my projects
 
 <table>
@@ -45,27 +66,6 @@
 </table>
 
 <sub><a href="https://github.com/anthonycoffey?tab=repositories">More on GitHub →</a></sub>
-
----
-
-### Stats
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api?username=anthonycoffey&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&card_width=480" />
-  <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api/top-langs/?username=anthonycoffey&layout=compact&theme=radical&hide_border=true&langs_count=10&card_width=320" />
-</p>
-
-<p align="center">
-  <img height="180" src="https://streak-stats.demolab.com/?user=anthonycoffey&theme=radical&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anthonycoffey&theme=radical&bg_color=0a0612&color=ff3df0&line=7c3aed&point=22d3ee&hide_border=true&area=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anthonycoffey&theme=radical&no-frame=true&row=1&column=7&margin-w=8" />
-</p>
 
 ---
 
