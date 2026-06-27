@@ -24,49 +24,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=anthonycoffey&theme=radical&bg_color=0a0612&color=ff3df0&line=7c3aed&point=22d3ee&hide_border=true&area=true" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anthonycoffey&theme=radical&no-frame=true&row=1&column=7&margin-w=8" />
-</p>
-
----
-
-### my projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://coffey.codes">coffey.codes</a></h4>
-      MDX-powered portfolio blog site. Next.js 16, three.js, Tailwind v4. Comments section powered by giscus (GitHub), and hosted on Vercel.
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/anthonycoffey/_agent">_agent</a></h4>
-      Self-hosted AI agent on a GCP VM. Terraform brings up the box, Docker runs n8n, Postgres+pgvector, Qdrant, Ollama, and LiteLLM proxying Claude / GPT / Gemini. Slack drives it. Persona is a 1970s mafia-connected Italian-American named Bugsy. Hobby project, FOSS where I can.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h4><a href="https://github.com/anthonycoffey/flutter-labelscan">flutter-labelscan</a></h4>
-      Flutter app that scans price labels with the phone camera and tracks a running cart total. Built it because I was tired of getting surprised at checkout.
-    </td>
-    <td valign="top">
-      <h4><a href="https://github.com/anthonycoffey/simply-voice">simply-voice</a></h4>
-      Speech-to-text web app on top of Google Cloud Speech. TypeScript front end, Firebase auth, Supabase storage. Built for my own text-to-speech needs, has no users but I use it all the time to create narrations for videos.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h4><a href="https://github.com/anthonycoffey/easymark-ui">easymark-ui</a> + <a href="https://github.com/anthonycoffey/easymark-api">easymark-api</a></h4>
-       Markdown viewer/editor desktop application created with Electron and React.
-    </td>
-    <td valign="top">
-      <h4><a href="https://github.com/anthonycoffey/piano-scale-visualizer">piano-scale-visualizer</a></h4>
-      Browser piano that highlights whatever scale you pick. Web Audio plays the notes when you click. Made for music students sick of squinting at scale charts.
-    </td>
-  </tr>
-</table>
-
-<sub><a href="https://github.com/anthonycoffey?tab=repositories">More on GitHub →</a></sub>
-
 ---
 
 ### Latest from [coffey.codes/articles](https://coffey.codes/articles)
