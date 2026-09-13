@@ -12,8 +12,8 @@
 ### Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api?username=anthonycoffey&show_icons=true&theme=radical&hide_border=true&count_private=true&card_width=480" />
-  <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api/top-langs/?username=anthonycoffey&layout=compact&theme=radical&hide_border=true&langs_count=10&card_width=320" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=anthonycoffey&show_icons=true&theme=radical&hide_border=true&card_width=480" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthonycoffey&layout=compact&theme=radical&hide_border=true&langs_count=10&card_width=320" />
 </p>
 
 <p align="center">
