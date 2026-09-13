@@ -12,7 +12,7 @@
 ### Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api?username=anthonycoffey&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&card_width=480" />
+  <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api?username=anthonycoffey&show_icons=true&theme=radical&hide_border=true&count_private=true&card_width=480" />
   <img height="180" src="https://github-readme-stats-tau-rosy.vercel.app/api/top-langs/?username=anthonycoffey&layout=compact&theme=radical&hide_border=true&langs_count=10&card_width=320" />
 </p>
 
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anthonycoffey&theme=radical&bg_color=0a0612&color=ff3df0&line=7c3aed&point=22d3ee&hide_border=true&area=true" />
+  <img src="https://raw.githubusercontent.com/anthonycoffey/anthonycoffey/output/snake.svg" alt="Contribution snake animation" />
 </p>
 
 ---
