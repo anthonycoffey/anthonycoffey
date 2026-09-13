@@ -12,11 +12,6 @@
 ### Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=anthonycoffey&show_icons=true&theme=radical&hide_border=true&card_width=480" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthonycoffey&layout=compact&theme=radical&hide_border=true&langs_count=10&card_width=320" />
-</p>
-
-<p align="center">
   <img height="180" src="https://streak-stats.demolab.com/?user=anthonycoffey&theme=radical&hide_border=true" />
 </p>
 
