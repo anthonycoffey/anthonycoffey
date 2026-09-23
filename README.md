@@ -12,7 +12,7 @@
 ### Stats
 
 <p align="center">
-  <img height="180" src="https://streak-stats.demolab.com/?user=anthonycoffey&theme=radical&hide_border=true" />
+  <img height="180" src="https://raw.githubusercontent.com/anthonycoffey/anthonycoffey/output/streak.svg" alt="GitHub contribution streak stats" />
 </p>
 
 <p align="center">

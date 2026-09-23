@@ -21,6 +21,22 @@ jobs:
           outputs: |
             dist/snake.svg?palette=github-dark&color_snake=#ff3df0&color_dots=#1b0f2e,#7c3aed,#a855f7,#d946ef,#ff3df0
 
+      # The public streak-stats instance is often rate-limited and serves an
+      # error card, so snapshot it here and keep the last good copy on failure.
+      - name: Snapshot streak stats card
+        run: |
+          user=${{ github.repository_owner }}
+          base="https://streak-stats.demolab.com/?user=$user"
+          fallback="https://raw.githubusercontent.com/${{ github.repository }}/output/streak.svg"
+          if curl -sf -m 60 "$base&type=json" | grep -q '"totalContributions"' \
+            && curl -sf -m 60 "$base&theme=radical&hide_border=true" -o dist/streak.svg \
+            && ! grep -qi 'failed to retrieve\|error' dist/streak.svg; then
+            echo "Fetched fresh streak card"
+          else
+            echo "Streak API unavailable, keeping previous card"
+            curl -sf -m 60 "$fallback" -o dist/streak.svg || rm -f dist/streak.svg
+          fi
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
