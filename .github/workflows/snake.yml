@@ -25,11 +25,13 @@ jobs:
       # error card, so snapshot it here and keep the last good copy on failure.
       - name: Snapshot streak stats card
         run: |
+          # snk runs in Docker and leaves dist/ owned by root
+          sudo chown -R "$(id -u):$(id -g)" dist
           user=${{ github.repository_owner }}
           base="https://streak-stats.demolab.com/?user=$user"
           fallback="https://raw.githubusercontent.com/${{ github.repository }}/output/streak.svg"
-          if curl -sf -m 60 "$base&type=json" | grep -q '"totalContributions"' \
-            && curl -sf -m 60 "$base&theme=radical&hide_border=true" -o dist/streak.svg \
+          if curl -sSf -m 60 "$base&type=json" | tee /dev/stderr | grep -q '"totalContributions"' \
+            && curl -sSf -m 60 "$base&theme=radical&hide_border=true" -o dist/streak.svg \
             && ! grep -qi 'failed to retrieve\|error' dist/streak.svg; then
             echo "Fetched fresh streak card"
           else
